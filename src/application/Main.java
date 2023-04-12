@@ -67,6 +67,9 @@ public class Main extends Application {
 	// Input Calculator GUI
 	// Create Grid
 	GridPane grid = new GridPane();
+	grid.setHgap(5);
+	grid.setVgap(5);
+	grid.setAlignment(Pos.CENTER);
 
 	Button seven = new Button("7");
 	GridPane.setConstraints(seven, 0, 0);
